@@ -1,0 +1,92 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+}
+/*=======CTA======*/
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;     
+}
+
+/* ====HEADER SOCIALS=== */
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+// ME
+
+.me{
+
+   
+    background : linear-gradient(var(--color-primary),transparent);
+    margin-top: 4rem;
+    border-radius:50% ;
+    height: 30rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    width: 22rem;
+    margin-left: 23rem;
+
+    /*   
+    position: absolute;
+    border-radius: 12rem 12rem 0 0;
+    overflow:hidden;
+*/
+}
+
+
+// SCROLL DOWN
+.scroll-down{
+position: absolute;
+right: -2.3rem;
+bottom: 5rem;
+transform: rotate(90deg);
+font-weight: 300;
+font-size: 0.9rem;
+}
+
+/* ======MEDIA QUERIES(Medium Devices)=====*/
+@media screen and (max-width: 1024px){
+    header{
+        height: 85vh;
+    }
+    .me{
+        margin-left:6rem;
+        
+    }
+}
+
+
+/* ======MEDIA QUERIES(Small Devices)=====*/
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll-down{
+        display: none;
+    }
+    
+}
