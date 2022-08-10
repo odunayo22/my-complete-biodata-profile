@@ -7,6 +7,9 @@ import IMG3 from '../../assets/image6.jpg';
 import IMG4 from '../../assets/image3.jpg';
 import IMG5 from '../../assets/website.jpg';
 import IMG6 from '../../assets/banking.jpg';
+import video1 from '../../assets/video-1.mp4';
+import video2 from '../../assets/meals.mp4';
+import video4 from '../../assets/slide.mp4';
 
 
 
@@ -16,9 +19,9 @@ const data =
     {
         id: 1,
         image: IMG1,
-        title: 'Login using react Js and PHP',
+        title: 'My Profile-1',
         github: 'https://github.com/odunayo22/react-php.git',
-        demo: 'https://github.com/odunayo22/react-php.git',
+        demo: video1,
     },
 
     {
@@ -26,7 +29,7 @@ const data =
         image: IMG2,
         title: 'Meal app',
         github: 'https://github.com/odunayo22/meals.git',
-        demo: 'https://github.com/odunayo22/meals.git',
+        demo: video2,
     },
 
     {
@@ -40,9 +43,9 @@ const data =
     {
         id: 4,
         image: IMG4,
-        title: 'Sliding',
+        title: 'Automatic Sliding',
         github: 'https://github.com/odunayo22/another-slide.git',
-        demo: 'https://github.com/odunayo22/another-slide.git',
+        demo: video4,
     },
 
     {
@@ -56,7 +59,7 @@ const data =
     {
         id: 6,
         image: IMG6,
-        title: 'Banking App',
+        title: 'Social-Media-App',
         github: 'https://github.com/odunayo22/banking.git',
         demo: 'https://github.com/odunayo22/banking.git',
     },
