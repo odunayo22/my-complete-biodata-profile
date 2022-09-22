@@ -24,7 +24,7 @@ const Testimonial = () => {
             <h5> Review from Clients </h5>
                 <h2>Testimonials</h2>
                
-            <Swiper className=".swiper"
+            <Swiper className="swiper"
            modules={[ Pagination, Navigation]}
            spaceBetween={30}
            slidesPerView={1}

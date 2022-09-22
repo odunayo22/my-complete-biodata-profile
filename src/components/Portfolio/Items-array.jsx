@@ -9,6 +9,7 @@ import IMG5 from '../../assets/website.jpg';
 import IMG6 from '../../assets/banking.jpg';
 import video1 from '../../assets/video-1.mp4';
 import video2 from '../../assets/meals.mp4';
+import video3 from '../../assets/php-login.mp4';
 import video4 from '../../assets/slide.mp4';
 
 
@@ -35,9 +36,9 @@ const data =
     {
         id: 3,
         image: IMG3,
-        title: 'Pop up Window',
-        github: 'https://github.com/odunayo22/my-Popup.git',
-        demo: 'https://github.com/odunayo22/my-Popup.git',
+        title: 'My Login Page',
+        github: 'https://github.com/odunayo22/login-system.git',
+        demo: video3,
     },
 
     {

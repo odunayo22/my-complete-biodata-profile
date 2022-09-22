@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 
 
@@ -26,7 +26,7 @@ header{
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 1rem;
 }
 
 .header__socials::after{
@@ -69,19 +69,21 @@ font-size: 0.9rem;
 /* ======MEDIA QUERIES(Medium Devices)=====*/
 @media screen and (max-width: 1024px){
     header{
-        height: 85vh;
+        height: 75vh;
     }
     .me{
-        margin-left:6rem;
+      margin-left: 12rem;
         
     }
+   
+
 }
 
 
 /* ======MEDIA QUERIES(Small Devices)=====*/
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
+        height: 50vh;
     }
 
     .header__socials,

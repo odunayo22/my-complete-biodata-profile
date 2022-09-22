@@ -66,6 +66,10 @@
 
 /* ======MEDIA QUERIES(Medium Devices)=====*/
 @media screen and (max-width: 1024px){
+    #testimonials{
+    height: 60vh;
+    margin-top: 5vh;
+    }
     .container.testimonials__container{
         width: 60%;
     }
@@ -74,6 +78,9 @@
 
 /* ======MEDIA QUERIES(Small Devices)=====*/
 @media screen and (max-width: 600px){
+    #testimonials{
+        margin-top: 15vh;
+      }
     .container.testimonials__container{
         width: var(--container-width-sm);
         

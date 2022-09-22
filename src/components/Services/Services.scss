@@ -1,5 +1,6 @@
-#services{
-    margin-top: auto;
+#services-serv{
+    margin-top: 5vh;
+    height: 70vh;
 }
 
 .services__container{
@@ -58,6 +59,9 @@
 }
 
 @media screen and (max-width: 1024px){
+    #services-serv{
+        height: 100vh;
+    }
     .services__container{
         grid-template-columns: 1fr 1fr;
         gap: 2rem;

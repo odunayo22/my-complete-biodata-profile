@@ -4,7 +4,7 @@ import {BiCheck} from 'react-icons/bi';
 
 const Services = () => {
     return(
-        <section id='services'>
+        <section id='services-serv'>
             <h5>What I Offer</h5>
             <h2>Services</h2>
 
@@ -26,17 +26,6 @@ const Services = () => {
                             <BiCheck className='service__list-icon' />
                             <p> The information provided are all true. all details needeed is included.  </p>
                         </li>
-
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p> The information provided are all true. all details needeed is included.  </p>
-                        </li>
-
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p> The information provided are all true. all details needeed is included.  </p>
-                        </li>
-
                         
                     </ul>
 
@@ -66,17 +55,15 @@ const Services = () => {
                             <p> The information provided are all true. all details needeed is included.  </p>
                         </li>
 
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p> The information provided are all true. all details needeed is included.  </p>
-                        </li>
-
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p> The information provided are all true. all details needeed is included.  </p>
-                        </li>
-
                        
+                        {/*
+
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p> The information provided are all true. all details needeed is included.  </p>
+                        </li>
+
+    */}
                     </ul>
 
                 </article>
@@ -98,16 +85,6 @@ const Services = () => {
                         <li>
                             <BiCheck className='service__list-icon' />
                             <p> The information provided are all true. all details needeed is included.  </p>
-                        </li>
-
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p> The information provided are all true. all details needeed is included.  </p>
-                        </li>
-
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p> The information provided are all true.   </p>
                         </li>
 
                         

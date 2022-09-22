@@ -44,6 +44,9 @@
 
 /* ======MEDIA QUERIES(Medium Devices)=====*/
 @media screen and (max-width: 1024px){
+    #experience{
+        height: 150vh;
+    }
     .experience__container{
         grid-template-columns: 1fr;
 
@@ -64,7 +67,8 @@
 @media screen and (max-width: 600px){
 
     #experience{
-        margin-top:10rem;
+       height: 70vh;
+      
     }
     .experience__container{
         gap: 1rem;
