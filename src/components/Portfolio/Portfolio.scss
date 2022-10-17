@@ -1,3 +1,6 @@
+.portfolio{
+    height: 130vh;
+}
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -38,8 +41,8 @@
 
 
 @media screen and (max-width: 1024px){
-    #portfolio{
-        height: 120vh;
+    .portfolio{
+        height: 70vh;
     }
     .portfolio__container{
         margin-top: 17rem;
@@ -52,10 +55,13 @@
 
 /* ======MEDIA QUERIES(Small Devices)=====*/
 @media screen and (max-width: 600px){
+    .portfolio{
+        max-height: 70vh;
+    }
+   
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    
 
 }

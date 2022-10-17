@@ -66,8 +66,9 @@
 /* ======MEDIA QUERIES(Small Devices)=====*/
 @media screen and (max-width: 600px){
 
-    #experience{
-       height: 70vh;
+    .experience{
+        margin-top: 13rem;
+       max-height: 40vh;
       
     }
     .experience__container{

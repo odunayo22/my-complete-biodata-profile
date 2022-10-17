@@ -8,7 +8,7 @@ import { FcFolder } from 'react-icons/fc';
 
 const About = () =>{
     return(
-        <section id="about">
+        <section className="about">
         <h5>Know More</h5>
         <h2>About Me</h2>
         <div className='container about__container'>

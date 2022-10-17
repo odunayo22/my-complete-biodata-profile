@@ -20,7 +20,7 @@ import 'swiper/css/navigation';
 
 const Testimonial = () => {
     return(
-        <section id="testimonials">
+        <section className="testimonials">
             <h5> Review from Clients </h5>
                 <h2>Testimonials</h2>
                

@@ -16,7 +16,7 @@ import IMG6 from '../../assets/edit-1.png';
 
 const Portfolio = () =>{
     return(
-        <section id="portfolio">
+        <section className="portfolio">
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
 

@@ -36,7 +36,7 @@
 
 .swiper {
     width: 60%;
-    height: 50%;
+    height: 35%;
   
 
    margin:4rem;
@@ -78,8 +78,9 @@
 
 /* ======MEDIA QUERIES(Small Devices)=====*/
 @media screen and (max-width: 600px){
-    #testimonials{
-        margin-top: 15vh;
+    .testimonials{
+      height: 30vh;
+       
       }
     .container.testimonials__container{
         width: var(--container-width-sm);

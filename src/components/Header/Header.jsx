@@ -15,7 +15,10 @@ const Header = () =>{
                 
                 <CTA />
         
-                <HeaderSocials  />
+
+
+       
+                <HeaderSocials  className='social' />
                
 
                 <div className='me'>
@@ -23,6 +26,7 @@ const Header = () =>{
                 </div>
 
                 <a href="#contact" className='scroll-down'>Scroll Down</a>
+        
             </div>
 
         </header>
