@@ -60,7 +60,7 @@ const data =
     {
         id: 6,
         image: IMG6,
-        title: 'Social-Media-App',
+        title: 'Banking-App',
         github: 'https://github.com/odunayo22/banking.git',
         demo: 'https://github.com/odunayo22/banking.git',
     },

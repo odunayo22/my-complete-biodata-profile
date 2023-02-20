@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/Updated-cv.pdf';
+import CV from '../../assets/newest-cv.pdf';
 import './Header.scss';
 
 const CTA = () => {
