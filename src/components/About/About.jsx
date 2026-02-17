@@ -23,13 +23,13 @@ const About = () =>{
                     <article className='about__card'>
                         <FaAward className='about__icons'/>
                         <h5>Experience</h5>
-                        <small>3+ Year Working</small>
+                        <small>4+ Year Working</small>
                     </article>
 
                     <article className='about__card'>
                         <ImUsers className='about__icons'/>
                         <h5>Clients</h5>
-                        <small>50+ Clients</small>
+                        <small>10+ Clients</small>
                     </article>
 
                     <article className='about__card'>
@@ -40,7 +40,7 @@ const About = () =>{
                 </div>
 
                 <p>
-                    The information provided are all true. all details needeed is included. information provided are all true. all details needeed is included. information provided are all true. all details needeed is included. information provided are all true. all details needeed is included.
+                    The information provided are all true and all details needeed is included. Information provided are all true and all details needeed is included.Information provided are all true and all details needeed is included. Information provided are all true and all details needeed is included.
                 </p>
 
                 <a href='#contact' className='btn btn-primary'>Let's discuss</a>

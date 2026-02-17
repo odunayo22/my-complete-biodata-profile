@@ -66,12 +66,12 @@ const Experience = () => {
 
             {/*backend begins*/}
             <div className='experience__backend'>
-            <h3>Backend Development</h3>
+            <h3>Data Analyst</h3>
                 <div className='experience__content'>
                     <article className='experience__details'>
                         < BsPatchCheckFill className="experience__details-icon"/>
                         <div>
-                        <h4>Node JS</h4>
+                        <h4>Python</h4>
                         <small className='text-light'>Experienced</small>
                         </div>
                     </article>
@@ -79,7 +79,7 @@ const Experience = () => {
                     <article className='experience__details'>
                         < BsPatchCheckFill className="experience__details-icon"/>
                         <div>
-                        <h4>PHP</h4>
+                        <h4>Data Visualizatiol</h4>
                         <small className='text-light'>Intermediate</small>
                         </div>
                     </article>
